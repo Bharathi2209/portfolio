@@ -131,3 +131,59 @@ body.dark-mode .toggle-btn {
   border-color: var(--primary-dark);
   background-color: #333;
 }
+
+/* --------------------
+   Responsive Design
+-------------------- */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+
+  .resume-btn {
+    padding: 8px 16px;
+    font-size: 0.95em;
+  }
+
+  .toggle-btn {
+    top: 10px;
+    right: 15px;
+    padding: 6px 12px;
+    font-size: 0.85em;
+  }
+
+  .social-icons img,
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+  }
+
+  .projects ul {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 0.95em;
+  }
+
+  .projects ul,
+  .about p,
+  .contact p {
+    font-size: 0.9em;
+  }
+}
