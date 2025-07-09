@@ -62,16 +62,16 @@ a:hover {
   background-color: #005e99;
 }
 .social-icons img {
-  width: 28px;
-  height: 28px;
-  margin: 0 8px;
+  width: 22px;
+  height: 22px;
+  margin: 0 6px;
   transition: transform 0.2s ease;
   vertical-align: middle;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .social-icons img:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
   opacity: 1;
 }
 
