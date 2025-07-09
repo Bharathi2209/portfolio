@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Dark Mode Toggle Button -->
+  <button class="toggle-btn" onclick="toggleMode()">🌙 Dark Mode</button>
+
   <div class="container">
     <header>
       <h1>Hello, I'm <span>Bharathi</span> 👋</h1>
@@ -48,5 +51,15 @@
       <a href="resume.pdf" download class="resume-btn">📄 Download Resume</a>
     </section>
   </div>
+
+  <!-- Dark Mode Script -->
+  <script>
+    function toggleMode() {
+      const body = document.body;
+      const btn = document.querySelector('.toggle-btn');
+      body.classList.toggle('dark-mode');
+      btn.textContent = body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
+    }
+  </script>
 </body>
 </html>
